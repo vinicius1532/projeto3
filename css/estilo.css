@@ -1,0 +1,71 @@
+body {
+  background-color: rgba(255, 255, 255, 0.384);
+}
+/* meu_menu é id */ /* abrindo ID menu */
+#meu_menu {
+  text-align: right;
+  /* padding margem interna */
+  padding-right: 25px;
+  /* colocando borda inferior */
+  border-bottom: solid;
+  /* tamanho da fonte menu */
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+} /* fechando ID menu */
+
+/* chamando classe mãe */
+#meu_menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/*  colocando efeito sobre o menu*/
+#meu_menu a:hover {
+  color: rgba(6, 184, 42, 0.788);
+  transition: 0.4s;
+  opacity: 0.4s;
+}
+
+.titulo {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-style: double; /* borda */
+  border-color: rgb(0, 0, 0);
+  border-radius: 50px; 
+  background-color: rgba(8, 143, 44, 0.621);
+}
+
+#fundo{
+    justify-content: center;
+    display: flex;
+   
+}
+
+img{
+    width:20%
+}
+/* trabalhando com a div principal */
+
+
+.master {
+  color: rgb(9, 5, 5);
+  display: flex;
+}
+
+.col_esquerda{
+    margin-right: 35px;
+    text-align: justify;
+}
+
+.col_direita{
+    text-align: justify;
+}
+
+.titulo_col{
+    text-align: center;
+    background-color: rgba(8, 143, 44, 0.621) ;
+    border-radius: 20px;
+}
+
+.rodape{
+    
+}
